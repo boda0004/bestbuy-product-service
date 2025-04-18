@@ -5,73 +5,74 @@ pub fn fetch_products(_settings: &Settings) -> Vec<Product> {
     vec![
         Product {
             id: 1,
-            name: "Contoso Catnip's Friend".to_string(),
-            price: 9.99,
-            description: "Watch your feline friend embark on a fishing adventure with Contoso Catnip's Friend toy. Packed with irresistible catnip and dangling fish lure.".to_string(),
-            image: "/catnip.jpg".to_string()
+            name: "Samsung 55\" 4K UHD Smart TV".to_string(),
+            price: 649.99,
+            description: "Experience cinematic brilliance with the Samsung 55\" Crystal UHD 4K Smart TV. Features built-in Alexa, HDR, and dynamic crystal color for vivid visuals.".to_string(),
+            image: "/samsung_tv.jpg".to_string()
         },
         Product {
             id: 2,
-            name: "Salty Sailor's Squeaky Squid".to_string(),
-            price: 6.99,
-            description: "Let your dog set sail with the Salty Sailor's Squeaky Squid. This interactive toy provides hours of fun, featuring multiple squeakers and crinkle tentacles.".to_string(),
-            image: "/squid.jpg".to_string()
+            name: "Apple AirPods Pro (2nd Gen)".to_string(),
+            price: 249.99,
+            description: "Immerse yourself in rich audio with Apple AirPods Pro. Features active noise cancellation, adaptive transparency, and personalized spatial audio.".to_string(),
+            image: "/airpods_pro.jpeg".to_string()
         },
         Product {
             id: 3,
-            name: "Mermaid's Mice Trio".to_string(),
-            price: 12.99,
-            description: "Entertain your kitty with the Mermaid's Mice Trio. These adorable plush mice are dressed as mermaids and filled with catnip to captivate their curiosity.".to_string(),
-            image: "/mermaid.jpg".to_string()
+            name: "HP Pavilion x360 2-in-1 Laptop".to_string(),
+            price: 799.99,
+            description: "Stay productive with the HP Pavilion x360. This 2-in-1 touchscreen laptop offers Intel Core i5 performance and sleek portability for everyday computing.".to_string(),
+            image: "/hp_x360.jpg".to_string()
         },
         Product {
             id: 4,
-            name: "Ocean Explorer's Puzzle Ball".to_string(),
-            price: 11.99,
-            description: "Challenge your pet's problem-solving skills with the Ocean Explorer's Puzzle Ball. This interactive toy features hidden compartments and treats, providing mental stimulation and entertainment.".to_string(),
-            image: "/ocean.jpg".to_string()
+            name: "Sony PlayStation 5 Console".to_string(),
+            price: 699.99,
+            description: "Next-level gaming with the PlayStation 5. Ultra-fast SSD, ray tracing graphics, and DualSense controller for immersive play.".to_string(),
+            image: "/ps5.jpg".to_string()
         },
         Product {
             id: 5,
-            name: "Pirate Parrot Teaser Wand".to_string(),
-            price: 8.99,
-            description: "Engage your cat in a playful pursuit with the Pirate Parrot Teaser Wand. The colorful feathers and jingling bells mimic the mischievous charm of a pirate's parrot.".to_string(),
-            image: "/pirate.jpg".to_string()
+            name: "Bose QuietComfort 45 Headphones".to_string(),
+            price: 429.99,
+            description: "Enjoy world-class noise cancellation and comfort with Bose QC45 headphones. Ideal for travel, work, and immersive listening.".to_string(),
+            image: "/bose_qc45.jpeg".to_string()
         },
         Product {
             id: 6,
-            name: "Seafarer's Tug Rope".to_string(),
-            price: 14.99,
-            description: "Tug-of-war meets nautical adventure with the Seafarer's Tug Rope. Made from marine-grade rope, it's perfect for interactive play and promoting dental health in dogs.".to_string(),
-            image: "/tug.jpg".to_string()
+            name: "Nikon D5600 DSLR Camera Kit".to_string(),
+            price: 899.99,
+            description: "Capture stunning moments with the Nikon D5600 DSLR. Includes 18-55mm lens, built-in Wi-Fi, and 24.2MP resolution for high-quality photography.".to_string(),
+            image: "/nikon_d5600.jpg".to_string()
         },
         Product {
             id: 7,
-            name: "Seashell Snuggle Bed".to_string(),
-            price: 19.99,
-            description: "Give your furry friend a cozy spot to curl up with the Seashell Snuggle Bed. Shaped like a seashell, this plush bed provides comfort and relaxation for cats and small dogs.".to_string(),
-            image: "/bed.jpg".to_string()
+            name: "iRobot Roomba j7+ Self-Emptying Vacuum".to_string(),
+            price: 999.99,
+            description: "Smart home cleaning with the Roomba j7+. Avoids obstacles and empties itself for a hands-free vacuuming experience.".to_string(),
+            image: "/roomba_j7.jpg".to_string()
         },
         Product {
             id: 8,
-            name: "Nautical Knot Ball".to_string(),
-            price: 7.99,
-            description: "Unleash your dog's inner sailor with the Nautical Knot Ball. Made from sturdy ropes, it's perfect for fetching, tugging, and satisfying their chewing needs.".to_string(),
-            image: "/knot.jpg".to_string()
+            name: "Fitbit Charge 6 Fitness Tracker".to_string(),
+            price: 219.99,
+            description: "Track your health and fitness goals with the Fitbit Charge 6. Includes built-in GPS, heart rate monitor, and Google Maps integration.".to_string(),
+            image: "/fitbit_charge6.jpg".to_string()
         },
         Product {
             id: 9,
-            name: "Contoso Claw's Crabby Cat Toy".to_string(),
-            price: 3.99,
-            description: "Watch your cat go crazy for Contoso Claw's Crabby Cat Toy. This crinkly and catnip-filled toy will awaken their hunting instincts and provide endless entertainment.".to_string(),
-            image: "/crabby.jpg".to_string()
+            name: "Google Nest Thermostat".to_string(),
+            price: 139.99,
+            description: "Save energy and stay comfortable with the Google Nest Thermostat. Learns your habits and helps reduce heating and cooling costs.".to_string(),
+            image: "/nest_thermostat.jpg".to_string()
         },
         Product {
             id: 10,
-            name: "Ahoy Doggy Life Jacket".to_string(),
-            price: 5.99,
-            description: "Ensure your furry friend stays safe during water adventures with the Ahoy Doggy Life Jacket. Designed for dogs, this flotation device offers buoyancy and visibility in style.".to_string(),
-            image: "/lifejacket.jpg".to_string()
+            name: "Anker PowerCore 20,000mAh Power Bank".to_string(),
+            price: 49.99,
+            description: "Charge your devices on the go with the Anker PowerCore. Delivers fast, reliable charging with dual USB ports and long-lasting capacity.".to_string(),
+            image: "/anker_powerbank.jpeg".to_string()
         }
+        
     ]
 }
